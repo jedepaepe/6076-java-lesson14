@@ -17,7 +17,7 @@ public class TicTacToeBasicX {
     }
 
     private static void showBoard(char[][] state) {
-        for (int i = 0; i < 3; ++i) {
+        for (int i = 0; i < state.length; ++i) {
             System.out.println("" + state[i][0] + state[i][1] + state[i][2]);
         }
     }
