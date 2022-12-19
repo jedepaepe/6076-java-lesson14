@@ -14,6 +14,7 @@ public class TicTacToeBasicX {
             doStep(state, scanner);
         } while(! isTerminated(state));
         showResult(state);
+        scanner.close();
     }
 
     private static void showBoard(char[][] state) {
